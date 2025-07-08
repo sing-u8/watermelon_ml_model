@@ -1,0 +1,33 @@
+# 디폴트 무시된 파일
+/shelf/
+/workspace.xml
+# 에디터 기반 HTTP 클라이언트 요청
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+
+# watermelons_data
+watermelon_data/*
+preprocessed_data/*
+
+# __pycache__
+__pycache__/
+
+# .DS_Store
+.DS_Store
+
+# .env
+.env
+
+# .idea
+.idea/
+.idea/*
+.idea/.gitignore
+.idea/data_analysis.py
+.idea/audio_preprocessing.py
+
+# cursor
+.cursor/*
+.cursor/
