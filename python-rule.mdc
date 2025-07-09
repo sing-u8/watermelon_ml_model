@@ -1,0 +1,227 @@
+# 🍉 수박 당도 예측 AI 프로젝트 진행상황
+
+## 📋 프로젝트 개요
+
+- **목표**: 수박 타격음을 분석하여 당도(Brix) 예측
+- **기술**: PyTorch CNN + 멜-스펙트로그램 분석
+- **배포**: ONNX, Core ML 형식으로 모델 변환
+
+---
+
+## ✅ 완료된 작업
+
+### 1. 모델 개발 및 훈련 ✅
+
+- **모델 아키텍처**: Custom CNN (WatermelonCNN)
+
+  - 입력: 224×224×3 멜-스펙트로그램 이미지
+  - 출력: 당도 예측값 (Brix)
+  - 특징: Residual Connection, Dropout, Global Average Pooling
+
+- **성능 지표**:
+
+  - RMSE: 0.75
+  - 당도 정확도 (±1.0 Brix): 85.2%
+  - 최적 모델: Epoch 22에서 저장
+
+- **저장 위치**:
+  - `models/checkpoints/custom_cnn/WatermelonCNN_best.pth`
+  - `models/checkpoints/vgg16/VGG16Regressor_best.pth`
+
+### 2. ONNX 모델 변환 ✅
+
+- **변환 완료**: PyTorch → ONNX
+- **파일**: `models/onnx/WatermelonBrixPredictor.onnx` (4.8MB)
+- **메타데이터**: `models/onnx/WatermelonBrixPredictor_info.json`
+- **사용 예제**: `models/onnx/WatermelonBrixPredictor_example.py`
+- **문서**: `models/onnx/README.md`
+
+### 3. Core ML 모델 변환 ✅ (신규 완료)
+
+- **변환 성공**: PyTorch → Core ML
+- **파일**: `models/coreml/WatermelonBrixPredictor.mlmodel` (4.8MB)
+- **형식**: Neural Network (.mlmodel)
+- **호환성**: iOS 13.0+
+- **최적화**: CPU/GPU 하이브리드 실행
+
+### 4. Swift 사용 가이드 작성 ✅ (신규 완료)
+
+- **Swift 예제 코드**: `models/coreml/SwiftUsageExample.swift`
+  - WatermelonBrixPredictor 클래스
+  - UIImage 전처리 함수
+  - 완전한 ViewController 예제
+- **사용 가이드**: `models/coreml/README.md`
+  - 설치 방법
+  - 기본 사용법
+  - 성능 최적화 팁
+  - 트러블슈팅 가이드
+
+---
+
+## 📊 모델 성능 비교
+
+| 모델       | RMSE | 정확도 (±1.0) | 파일 크기 | 추론 시간 |
+| ---------- | ---- | ------------- | --------- | --------- |
+| Custom CNN | 0.75 | 85.2%         | 4.8MB     | ~20ms     |
+| VGG16      | -    | -             | -         | -         |
+
+---
+
+## 🚀 배포 옵션
+
+### 1. ONNX Runtime
+
+- **플랫폼**: Windows, Linux, macOS, Mobile
+- **언어**: Python, C++, C#, Java
+- **용도**: 서버 배포, 크로스 플랫폼
+
+### 2. Core ML (iOS/macOS) ✅
+
+- **플랫폼**: iOS 13.0+, macOS 10.15+
+- **언어**: Swift, Objective-C
+- **용도**: 모바일 앱 배포
+- **최적화**: Apple 하드웨어 특화
+
+---
+
+## 📱 Swift 프로젝트 적용 방법
+
+### 기본 사용법
+
+```swift
+import CoreML
+
+let predictor = WatermelonBrixPredictor()
+if let brix = predictor.predict(image: melspectrogramImage) {
+    print("예측된 당도: \(brix) Brix")
+}
+```
+
+### 당도 품질 등급
+
+- **12+ Brix**: 🟢 매우 달콤 (최고급)
+- **10-12 Brix**: 🟡 달콤 (고급)
+- **8-10 Brix**: 🟠 보통 (중급)
+- **8 미만**: 🔴 부족 (저급)
+
+---
+
+## 📁 프로젝트 구조
+
+```
+PythonProject/
+├── models/
+│   ├── checkpoints/           # 훈련된 모델 체크포인트
+│   │   ├── custom_cnn/
+│   │   │   └── WatermelonCNN_best.pth
+│   │   └── vgg16/
+│   │       └── VGG16Regressor_best.pth
+│   ├── onnx/                  # ONNX 모델 및 문서
+│   │   ├── WatermelonBrixPredictor.onnx
+│   │   ├── WatermelonBrixPredictor_info.json
+│   │   ├── WatermelonBrixPredictor_example.py
+│   │   └── README.md
+│   └── coreml/                # Core ML 모델 및 Swift 가이드 ✅
+│       ├── WatermelonBrixPredictor.mlmodel
+│       ├── SwiftUsageExample.swift
+│       └── README.md
+├── src/
+│   ├── deployment/            # 모델 변환 스크립트
+│   │   ├── onnx_converter.py
+│   │   ├── coreml_converter.py
+│   │   ├── onnx_to_coreml_converter.py  # 시도했으나 의존성 문제
+│   │   └── simple_coreml_converter.py   # 성공한 변환기 ✅
+│   ├── models/
+│   ├── training/
+│   └── evaluation/
+└── results/                   # 훈련 결과 및 평가
+    ├── training/
+    ├── evaluation/
+    └── model_comparison/
+```
+
+---
+
+## 🔧 기술적 세부사항
+
+### 모델 입력 요구사항
+
+- **크기**: 224×224 픽셀
+- **형식**: RGB 3채널
+- **정규화**: ImageNet 표준
+  - mean=[0.485, 0.456, 0.406]
+  - std=[0.229, 0.224, 0.225]
+
+### Core ML 변환 과정
+
+1. **PyTorch 모델 로드**: 체크포인트에서 모델 가중치 복원
+2. **TorchScript 변환**: `torch.jit.trace()` 사용
+3. **Core ML 변환**: `coremltools.convert()` 실행
+4. **메타데이터 추가**: 입출력 설명, 사용법 정보
+5. **모델 저장**: `.mlmodel` 형식으로 저장
+
+### 발생한 문제 및 해결책
+
+- **protobuf 버전 충돌**: 환경변수 `PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python` 설정
+- **onnx-coreml 빌드 실패**: 직접 PyTorch → Core ML 변환으로 우회
+- **libmodelpackage 로드 실패**: `.mlmodel` 형식 사용으로 해결
+
+---
+
+## 📈 다음 단계 (TODO)
+
+### 단기 목표
+
+- [ ] iOS 앱에서 실제 테스트
+- [ ] Core ML 모델 성능 벤치마크
+- [ ] 실시간 오디오 처리 파이프라인 구축
+
+### 중기 목표
+
+- [ ] 체계적 하이퍼파라미터 최적화: 더 나은 성능 가능성 탐색
+- [ ] 종합적 모델 비교: 과학적 모델 선택 과정 구축
+- [ ] 최종 통합 리포트: 프로덕션 배포 준비 문서화
+- [ ] 모델 경량화 (Quantization)
+- [ ] 배치 추론 최적화
+
+### 장기 목표
+
+- [ ] 실시간 음성 인식 통합
+- [ ] 다양한 과일 종류 확장
+
+---
+
+## 🛠️ 개발 환경
+
+### Python 환경
+
+- **Python**: 3.13
+- **PyTorch**: 2.7.1
+- **Core ML Tools**: 6.0.0+
+- **ONNX**: 1.18.0
+
+### 의존성 문제
+
+- **scikit-learn**: 1.7.0 (지원되지 않음, 1.1.2 이하 필요)
+- **Torch 버전**: 2.7.1 (테스트되지 않음, 2.2.0 권장)
+- **protobuf**: 호환성 이슈 해결됨
+
+---
+
+## 📧 연락처
+
+**WatermelonAI Team** | MIT License | 2024
+
+---
+
+## 📝 최근 업데이트 (2024.07.09)
+
+- ✅ Core ML 모델 변환 성공
+- ✅ Swift 사용 예제 코드 작성
+- ✅ 완전한 iOS 배포 가이드 작성
+- ✅ 트러블슈팅 문서 정리
+  description:
+  globs:
+  alwaysApply: false
+
+---

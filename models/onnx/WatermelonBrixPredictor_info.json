@@ -1,0 +1,47 @@
+{
+  "model_name": "WatermelonBrixPredictor",
+  "model_type": "WatermelonCNN",
+  "input_shape": [
+    1,
+    3,
+    224,
+    224
+  ],
+  "input_name": "melspectrogram_image",
+  "output_name": "brix_prediction",
+  "preprocessing": {
+    "resize": [
+      224,
+      224
+    ],
+    "normalize": {
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  "performance": {
+    "rmse": 0.75,
+    "accuracy_1_brix": 85.2
+  },
+  "usage": {
+    "description": "수박 타격음에서 추출한 멜-스펙트로그램으로 당도 예측",
+    "brix_range": [
+      8.0,
+      13.0
+    ],
+    "deployment_platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Mobile"
+    ]
+  }
+}
