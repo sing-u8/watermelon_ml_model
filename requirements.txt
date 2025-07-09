@@ -4,6 +4,7 @@
 # 데이터 처리 및 분석
 pandas>=1.5.0
 numpy>=1.21.0
+scipy>=1.9.0
 
 # 머신러닝 및 딥러닝
 torch>=1.12.0
@@ -14,6 +15,10 @@ scikit-learn>=1.1.0
 librosa>=0.9.0
 soundfile>=0.10.0
 
+# 이미지 처리
+opencv-python>=4.5.0
+Pillow>=9.0.0
+
 # 시각화
 matplotlib>=3.5.0
 seaborn>=0.11.0
@@ -22,10 +27,22 @@ seaborn>=0.11.0
 tqdm>=4.64.0
 pathlib2>=2.3.0
 
+# 4단계 파이프라인 추가 패키지
+# Additional packages for Stage 4 pipeline
+
+# 하이퍼파라미터 튜닝
+optuna>=3.0.0  # 베이지안 최적화
+
 # 실험 관리 (선택사항)
 # mlflow>=1.28.0
 # tensorboard>=2.9.0
 
 # 주피터 노트북 (선택사항)
 # jupyter>=1.0.0
-# ipykernel>=6.15.0 
+# ipykernel>=6.15.0
+
+# 추가 데이터 분석
+plotly>=5.0.0  # 인터랙티브 시각화 
+
+# Core ML 변환 (iOS/macOS 배포)
+coremltools>=6.0.0  # PyTorch -> Core ML 변환 

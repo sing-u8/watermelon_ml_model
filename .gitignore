@@ -9,8 +9,8 @@
 
 
 # watermelons_data
-watermelon_data/*
-preprocessed_data/*
+data/
+data/*
 
 # __pycache__
 __pycache__/

@@ -1,0 +1,342 @@
+2025-07-08 17:41:53,340 - INFO - 훈련 시작 - Epochs: 50, Device: cpu
+2025-07-08 17:41:53,340 - INFO - 모델 파라미터 수: 121947969
+2025-07-08 17:43:10,526 - INFO - Epoch 1/50 - Train Loss: 271.8940, Val Loss: 616531.7188, LR: 0.001000, Time: 77.19s
+2025-07-08 17:44:28,766 - INFO - Epoch 2/50 - Train Loss: 219.4559, Val Loss: 2178.3674, LR: 0.001000, Time: 75.82s
+2025-07-08 17:45:47,388 - INFO - Epoch 3/50 - Train Loss: 212.5760, Val Loss: 4325.2891, LR: 0.001000, Time: 76.76s
+2025-07-08 17:46:59,549 - INFO - Epoch 4/50 - Train Loss: 163.7168, Val Loss: 2.3346, LR: 0.001000, Time: 72.16s
+2025-07-08 17:48:19,391 - INFO - Epoch 5/50 - Train Loss: 173.7702, Val Loss: 17.6301, LR: 0.001000, Time: 78.31s
+2025-07-08 17:49:44,862 - INFO - Epoch 6/50 - Train Loss: 245.1384, Val Loss: 10.8004, LR: 0.001000, Time: 85.47s
+2025-07-08 17:51:05,314 - INFO - Epoch 7/50 - Train Loss: 182.3587, Val Loss: 24.5719, LR: 0.001000, Time: 80.45s
+2025-07-08 17:52:38,971 - INFO - Epoch 8/50 - Train Loss: 188.0717, Val Loss: 4.4542, LR: 0.001000, Time: 93.66s
+2025-07-08 17:54:14,986 - INFO - Epoch 9/50 - Train Loss: 163.2067, Val Loss: 2.2629, LR: 0.001000, Time: 96.01s
+2025-07-08 17:55:42,646 - INFO - Epoch 10/50 - Train Loss: 183.2849, Val Loss: 104.0588, LR: 0.001000, Time: 85.89s
+2025-07-08 17:56:55,086 - INFO - Epoch 11/50 - Train Loss: 205.6162, Val Loss: 13.2281, LR: 0.001000, Time: 72.44s
+2025-07-08 17:58:24,549 - INFO - Epoch 12/50 - Train Loss: 154.6798, Val Loss: 27.7276, LR: 0.001000, Time: 89.46s
+2025-07-08 17:59:45,876 - INFO - Epoch 13/50 - Train Loss: 179.8978, Val Loss: 74.3824, LR: 0.001000, Time: 81.33s
+2025-07-08 18:01:02,990 - INFO - Epoch 14/50 - Train Loss: 176.2890, Val Loss: 161.9030, LR: 0.001000, Time: 77.11s
+2025-07-08 18:02:17,556 - INFO - Epoch 15/50 - Train Loss: 133.2174, Val Loss: 2.2336, LR: 0.001000, Time: 74.56s
+2025-07-08 18:03:35,333 - INFO - Epoch 16/50 - Train Loss: 118.6198, Val Loss: 21.5735, LR: 0.001000, Time: 76.14s
+2025-07-08 18:04:49,896 - INFO - Epoch 17/50 - Train Loss: 98.7261, Val Loss: 48.8110, LR: 0.001000, Time: 74.56s
+2025-07-08 18:06:03,080 - INFO - Epoch 18/50 - Train Loss: 110.5255, Val Loss: 8.0558, LR: 0.001000, Time: 73.18s
+2025-07-08 18:07:16,145 - INFO - Epoch 19/50 - Train Loss: 110.7303, Val Loss: 3.1096, LR: 0.001000, Time: 73.06s
+2025-07-08 18:08:29,458 - INFO - Epoch 20/50 - Train Loss: 113.5557, Val Loss: 2.5849, LR: 0.001000, Time: 73.31s
+2025-07-08 18:09:42,106 - INFO - Epoch 21/50 - Train Loss: 137.5744, Val Loss: 0.2764, LR: 0.001000, Time: 72.65s
+2025-07-08 18:10:57,080 - INFO - Epoch 22/50 - Train Loss: 103.8105, Val Loss: 3.6486, LR: 0.001000, Time: 73.37s
+2025-07-08 18:12:11,974 - INFO - Epoch 23/50 - Train Loss: 132.8065, Val Loss: 2.0120, LR: 0.001000, Time: 74.89s
+2025-07-08 18:13:25,673 - INFO - Epoch 24/50 - Train Loss: 101.1107, Val Loss: 0.3403, LR: 0.001000, Time: 73.70s
+2025-07-08 18:14:38,191 - INFO - Epoch 25/50 - Train Loss: 88.6480, Val Loss: 0.5083, LR: 0.001000, Time: 72.52s
+2025-07-08 18:15:52,246 - INFO - Epoch 26/50 - Train Loss: 102.3444, Val Loss: 4.6228, LR: 0.001000, Time: 74.05s
+2025-07-08 18:17:06,347 - INFO - Epoch 27/50 - Train Loss: 92.4841, Val Loss: 1.8953, LR: 0.001000, Time: 74.10s
+2025-07-08 18:18:21,060 - INFO - Epoch 28/50 - Train Loss: 143.6664, Val Loss: 1.3890, LR: 0.001000, Time: 74.71s
+2025-07-08 18:19:34,466 - INFO - Epoch 29/50 - Train Loss: 95.6203, Val Loss: 5.7326, LR: 0.001000, Time: 73.40s
+2025-07-08 18:20:48,597 - INFO - Epoch 30/50 - Train Loss: 126.3686, Val Loss: 0.5053, LR: 0.001000, Time: 74.13s
+2025-07-08 18:22:02,372 - INFO - Epoch 31/50 - Train Loss: 93.5686, Val Loss: 0.2490, LR: 0.001000, Time: 73.77s
+2025-07-08 18:23:17,294 - INFO - Epoch 32/50 - Train Loss: 80.9596, Val Loss: 3.0703, LR: 0.001000, Time: 73.38s
+2025-07-08 18:24:30,726 - INFO - Epoch 33/50 - Train Loss: 96.7604, Val Loss: 3.5549, LR: 0.001000, Time: 73.43s
+2025-07-08 18:25:43,424 - INFO - Epoch 34/50 - Train Loss: 69.1639, Val Loss: 0.7140, LR: 0.001000, Time: 72.70s
+2025-07-08 18:26:56,893 - INFO - Epoch 35/50 - Train Loss: 103.0716, Val Loss: 0.3862, LR: 0.001000, Time: 73.47s
+2025-07-08 18:28:10,085 - INFO - Epoch 36/50 - Train Loss: 97.7130, Val Loss: 6.1713, LR: 0.001000, Time: 73.19s
+2025-07-08 18:29:25,398 - INFO - Epoch 37/50 - Train Loss: 98.6213, Val Loss: 1.8101, LR: 0.001000, Time: 75.31s
+2025-07-08 18:30:41,116 - INFO - Epoch 38/50 - Train Loss: 87.4310, Val Loss: 4.0933, LR: 0.001000, Time: 75.72s
+2025-07-08 18:31:53,077 - INFO - Epoch 39/50 - Train Loss: 119.3166, Val Loss: 1.1743, LR: 0.001000, Time: 71.96s
+2025-07-08 18:33:06,548 - INFO - Epoch 40/50 - Train Loss: 74.2101, Val Loss: 0.7242, LR: 0.001000, Time: 73.47s
+2025-07-08 18:34:20,627 - INFO - Epoch 41/50 - Train Loss: 82.7638, Val Loss: 3.0926, LR: 0.001000, Time: 74.08s
+2025-07-08 18:35:33,915 - INFO - Epoch 42/50 - Train Loss: 78.0379, Val Loss: 1.9123, LR: 0.000100, Time: 73.29s
+2025-07-08 18:36:49,796 - INFO - Epoch 43/50 - Train Loss: 80.4830, Val Loss: 1.2270, LR: 0.000100, Time: 75.88s
+2025-07-08 18:38:02,569 - INFO - Epoch 44/50 - Train Loss: 57.7052, Val Loss: 0.8260, LR: 0.000100, Time: 72.77s
+2025-07-08 18:39:16,500 - INFO - Epoch 45/50 - Train Loss: 91.9270, Val Loss: 1.9047, LR: 0.000100, Time: 73.93s
+2025-07-08 18:40:29,518 - INFO - Epoch 46/50 - Train Loss: 73.9308, Val Loss: 0.6389, LR: 0.000100, Time: 73.02s
+2025-07-08 18:40:29,519 - INFO - 얼리 스토핑 - Epoch 46
+2025-07-08 18:40:29,519 - INFO - 훈련 완료 - 총 시간: 3516.18s
+2025-07-08 18:40:46,119 - INFO - 평가 결과 - RMSE: 1.1863, MAE: 1.0455, R²: -3.8995
+2025-07-08 18:53:30,344 - INFO - 모델 저장: results/training/vgg16_final_model.pth
+2025-07-08 18:53:30,374 - INFO - 훈련 시작 - Epochs: 50, Device: cpu
+2025-07-08 18:53:30,374 - INFO - 모델 파라미터 수: 1250337
+2025-07-08 18:54:11,436 - INFO - Epoch 1/50 - Train Loss: 39.3276, Val Loss: 20.7101, LR: 0.001000, Time: 41.06s
+2025-07-08 18:54:51,680 - INFO - Epoch 2/50 - Train Loss: 20.5160, Val Loss: 1.7635, LR: 0.001000, Time: 40.20s
+2025-07-08 18:55:30,886 - INFO - Epoch 3/50 - Train Loss: 20.6714, Val Loss: 1.1143, LR: 0.001000, Time: 39.18s
+2025-07-08 18:56:10,825 - INFO - Epoch 4/50 - Train Loss: 17.2957, Val Loss: 0.9116, LR: 0.001000, Time: 39.91s
+2025-07-08 18:56:50,361 - INFO - Epoch 5/50 - Train Loss: 11.0537, Val Loss: 0.1116, LR: 0.001000, Time: 39.51s
+2025-07-08 18:57:29,700 - INFO - Epoch 6/50 - Train Loss: 12.0177, Val Loss: 0.2085, LR: 0.001000, Time: 39.32s
+2025-07-08 18:58:10,030 - INFO - Epoch 7/50 - Train Loss: 14.6680, Val Loss: 1.0380, LR: 0.001000, Time: 40.33s
+2025-07-08 18:58:50,362 - INFO - Epoch 8/50 - Train Loss: 17.2018, Val Loss: 2.6689, LR: 0.001000, Time: 40.33s
+2025-07-08 18:59:31,269 - INFO - Epoch 9/50 - Train Loss: 19.6424, Val Loss: 3.5736, LR: 0.001000, Time: 40.91s
+2025-07-08 19:00:11,278 - INFO - Epoch 10/50 - Train Loss: 13.0298, Val Loss: 1.1900, LR: 0.001000, Time: 40.01s
+2025-07-08 19:00:51,955 - INFO - Epoch 11/50 - Train Loss: 18.9401, Val Loss: 0.3235, LR: 0.001000, Time: 40.68s
+2025-07-08 19:01:31,626 - INFO - Epoch 12/50 - Train Loss: 8.4369, Val Loss: 0.1340, LR: 0.001000, Time: 39.67s
+2025-07-08 19:02:11,118 - INFO - Epoch 13/50 - Train Loss: 9.8834, Val Loss: 0.7042, LR: 0.001000, Time: 39.49s
+2025-07-08 19:02:50,071 - INFO - Epoch 14/50 - Train Loss: 8.1454, Val Loss: 0.9859, LR: 0.001000, Time: 38.95s
+2025-07-08 19:03:29,179 - INFO - Epoch 15/50 - Train Loss: 9.5525, Val Loss: 0.0339, LR: 0.001000, Time: 39.11s
+2025-07-08 19:04:08,133 - INFO - Epoch 16/50 - Train Loss: 10.0187, Val Loss: 0.0515, LR: 0.001000, Time: 38.92s
+2025-07-08 19:04:47,298 - INFO - Epoch 17/50 - Train Loss: 9.4715, Val Loss: 0.0607, LR: 0.001000, Time: 39.16s
+2025-07-08 19:05:27,540 - INFO - Epoch 18/50 - Train Loss: 6.4799, Val Loss: 0.5573, LR: 0.001000, Time: 40.24s
+2025-07-08 19:06:08,075 - INFO - Epoch 19/50 - Train Loss: 6.9086, Val Loss: 0.7998, LR: 0.001000, Time: 40.53s
+2025-07-08 19:06:48,226 - INFO - Epoch 20/50 - Train Loss: 9.5948, Val Loss: 0.3298, LR: 0.001000, Time: 40.15s
+2025-07-08 19:07:28,479 - INFO - Epoch 21/50 - Train Loss: 5.7800, Val Loss: 1.4918, LR: 0.001000, Time: 40.25s
+2025-07-08 19:08:07,780 - INFO - Epoch 22/50 - Train Loss: 5.8441, Val Loss: 3.6008, LR: 0.001000, Time: 39.30s
+2025-07-08 19:08:46,846 - INFO - Epoch 23/50 - Train Loss: 8.9102, Val Loss: 2.2611, LR: 0.001000, Time: 39.07s
+2025-07-08 19:09:26,845 - INFO - Epoch 24/50 - Train Loss: 7.6808, Val Loss: 0.7766, LR: 0.001000, Time: 40.00s
+2025-07-08 19:10:05,925 - INFO - Epoch 25/50 - Train Loss: 8.2324, Val Loss: 0.2721, LR: 0.001000, Time: 39.08s
+2025-07-08 19:10:45,345 - INFO - Epoch 26/50 - Train Loss: 7.4392, Val Loss: 0.3643, LR: 0.000100, Time: 39.42s
+2025-07-08 19:11:25,816 - INFO - Epoch 27/50 - Train Loss: 7.2358, Val Loss: 0.4927, LR: 0.000100, Time: 40.47s
+2025-07-08 19:12:06,083 - INFO - Epoch 28/50 - Train Loss: 7.2937, Val Loss: 0.6137, LR: 0.000100, Time: 40.27s
+2025-07-08 19:12:46,802 - INFO - Epoch 29/50 - Train Loss: 5.0917, Val Loss: 1.0057, LR: 0.000100, Time: 40.72s
+2025-07-08 19:13:26,496 - INFO - Epoch 30/50 - Train Loss: 5.5743, Val Loss: 1.4061, LR: 0.000100, Time: 39.69s
+2025-07-08 19:13:26,496 - INFO - 얼리 스토핑 - Epoch 30
+2025-07-08 19:13:26,496 - INFO - 훈련 완료 - 총 시간: 1196.12s
+2025-07-08 19:13:42,157 - INFO - 평가 결과 - RMSE: 0.7900, MAE: 0.5948, R²: -1.1728
+2025-07-08 19:16:32,160 - INFO - 모델 저장: results/training/custom_cnn_final_model.pth
+2025-07-08 19:18:15,097 - INFO - 훈련 시작 - Epochs: 50, Device: cpu
+2025-07-08 19:18:15,097 - INFO - 모델 파라미터 수: 121947969
+2025-07-08 19:23:35,634 - INFO - Epoch 1/50 - Train Loss: 898.8390, Val Loss: 198330.4766, LR: 0.000500, Time: 320.53s
+2025-07-08 19:29:04,954 - INFO - Epoch 2/50 - Train Loss: 996.0414, Val Loss: 8908.4043, LR: 0.000500, Time: 329.32s
+2025-07-08 19:34:34,260 - INFO - Epoch 3/50 - Train Loss: 729.7999, Val Loss: 3967.3687, LR: 0.000500, Time: 329.30s
+2025-07-08 19:40:36,512 - INFO - Epoch 4/50 - Train Loss: 627.4105, Val Loss: 1666.7593, LR: 0.000500, Time: 362.24s
+2025-07-08 19:46:18,650 - INFO - Epoch 5/50 - Train Loss: 626.3346, Val Loss: 62.5461, LR: 0.000500, Time: 342.13s
+2025-07-08 19:52:06,877 - INFO - Epoch 6/50 - Train Loss: 539.6937, Val Loss: 765.0856, LR: 0.000500, Time: 348.22s
+2025-07-08 19:58:03,695 - INFO - Epoch 7/50 - Train Loss: 475.8848, Val Loss: 131.9976, LR: 0.000500, Time: 356.81s
+2025-07-08 20:03:36,136 - INFO - Epoch 8/50 - Train Loss: 371.9140, Val Loss: 56.1858, LR: 0.000500, Time: 332.43s
+2025-07-08 20:09:08,820 - INFO - Epoch 9/50 - Train Loss: 422.3917, Val Loss: 871.0309, LR: 0.000500, Time: 332.68s
+2025-07-08 20:14:57,455 - INFO - Epoch 10/50 - Train Loss: 346.3769, Val Loss: 40.5935, LR: 0.000500, Time: 348.63s
+2025-07-08 20:20:34,347 - INFO - Epoch 11/50 - Train Loss: 437.7946, Val Loss: 139.1743, LR: 0.000500, Time: 336.88s
+2025-07-08 20:26:13,263 - INFO - Epoch 12/50 - Train Loss: 275.3385, Val Loss: 92.6382, LR: 0.000500, Time: 338.91s
+2025-07-08 20:31:48,380 - INFO - Epoch 13/50 - Train Loss: 295.3143, Val Loss: 61.3439, LR: 0.000500, Time: 335.11s
+2025-07-08 20:37:23,894 - INFO - Epoch 14/50 - Train Loss: 264.0348, Val Loss: 108.3222, LR: 0.000500, Time: 335.51s
+2025-07-08 20:42:59,444 - INFO - Epoch 15/50 - Train Loss: 325.6053, Val Loss: 31.1762, LR: 0.000500, Time: 335.54s
+2025-07-08 20:48:16,969 - INFO - Epoch 16/50 - Train Loss: 223.4411, Val Loss: 139.8315, LR: 0.000500, Time: 317.52s
+2025-07-08 20:53:42,954 - INFO - Epoch 17/50 - Train Loss: 244.7929, Val Loss: 478.8573, LR: 0.000500, Time: 325.98s
+2025-07-08 20:59:00,273 - INFO - Epoch 18/50 - Train Loss: 236.9357, Val Loss: 46.0950, LR: 0.000500, Time: 317.31s
+2025-07-08 21:04:11,292 - INFO - Epoch 19/50 - Train Loss: 205.6176, Val Loss: 64.8961, LR: 0.000500, Time: 311.02s
+2025-07-08 21:09:21,059 - INFO - Epoch 20/50 - Train Loss: 149.6582, Val Loss: 26.2739, LR: 0.000500, Time: 309.77s
+2025-07-08 21:14:32,096 - INFO - Epoch 21/50 - Train Loss: 191.7960, Val Loss: 8.6388, LR: 0.000500, Time: 311.04s
+2025-07-08 21:19:43,183 - INFO - Epoch 22/50 - Train Loss: 209.8524, Val Loss: 7.4574, LR: 0.000500, Time: 311.08s
+2025-07-08 21:24:53,043 - INFO - Epoch 23/50 - Train Loss: 135.7400, Val Loss: 3.7132, LR: 0.000500, Time: 309.86s
+2025-07-08 21:30:04,801 - INFO - Epoch 24/50 - Train Loss: 176.5559, Val Loss: 68.5892, LR: 0.000500, Time: 311.76s
+2025-07-08 21:35:16,501 - INFO - Epoch 25/50 - Train Loss: 187.6990, Val Loss: 2451.4579, LR: 0.000500, Time: 311.70s
+2025-07-08 21:40:26,265 - INFO - Epoch 26/50 - Train Loss: 161.1587, Val Loss: 48.6491, LR: 0.000500, Time: 309.76s
+2025-07-08 21:45:35,299 - INFO - Epoch 27/50 - Train Loss: 164.7083, Val Loss: 326.9870, LR: 0.000500, Time: 309.03s
+2025-07-08 21:50:43,237 - INFO - Epoch 28/50 - Train Loss: 154.7113, Val Loss: 76.7524, LR: 0.000500, Time: 307.94s
+2025-07-08 21:55:52,519 - INFO - Epoch 29/50 - Train Loss: 117.1847, Val Loss: 76.6856, LR: 0.000500, Time: 309.28s
+2025-07-08 22:01:01,320 - INFO - Epoch 30/50 - Train Loss: 198.2703, Val Loss: 1955.3530, LR: 0.000500, Time: 308.80s
+2025-07-08 22:06:10,834 - INFO - Epoch 31/50 - Train Loss: 121.3727, Val Loss: 1375.2808, LR: 0.000500, Time: 309.51s
+2025-07-08 22:11:20,236 - INFO - Epoch 32/50 - Train Loss: 127.1956, Val Loss: 34.3248, LR: 0.000500, Time: 309.40s
+2025-07-08 22:16:31,143 - INFO - Epoch 33/50 - Train Loss: 166.9134, Val Loss: 24.1597, LR: 0.000500, Time: 310.90s
+2025-07-08 22:21:43,424 - INFO - Epoch 34/50 - Train Loss: 163.3227, Val Loss: 270.8595, LR: 0.000500, Time: 312.28s
+2025-07-08 22:26:51,976 - INFO - Epoch 35/50 - Train Loss: 125.1348, Val Loss: 150.1480, LR: 0.000500, Time: 308.55s
+2025-07-08 22:32:03,137 - INFO - Epoch 36/50 - Train Loss: 129.8953, Val Loss: 22.7479, LR: 0.000500, Time: 311.16s
+2025-07-08 22:37:11,958 - INFO - Epoch 37/50 - Train Loss: 102.0541, Val Loss: 115.2104, LR: 0.000500, Time: 308.82s
+2025-07-08 22:42:20,055 - INFO - Epoch 38/50 - Train Loss: 134.3349, Val Loss: 119.3785, LR: 0.000500, Time: 308.10s
+2025-07-08 22:42:20,056 - INFO - 얼리 스토핑 - Epoch 38
+2025-07-08 22:42:20,056 - INFO - 훈련 완료 - 총 시간: 12244.96s
+2025-07-08 22:42:50,750 - INFO - 훈련 시작 - Epochs: 50, Device: cpu
+2025-07-08 22:42:50,751 - INFO - 모델 파라미터 수: 121947969
+2025-07-08 22:48:10,891 - INFO - Epoch 1/50 - Train Loss: 379.6227, Val Loss: 239017.2500, LR: 0.000500, Time: 320.14s
+2025-07-08 22:53:31,460 - INFO - Epoch 2/50 - Train Loss: 322.6007, Val Loss: 5306.9976, LR: 0.000500, Time: 320.57s
+2025-07-08 22:58:49,555 - INFO - Epoch 3/50 - Train Loss: 270.0772, Val Loss: 689.9394, LR: 0.000500, Time: 318.09s
+2025-07-08 23:04:11,465 - INFO - Epoch 4/50 - Train Loss: 241.5178, Val Loss: 424.4182, LR: 0.000500, Time: 321.91s
+2025-07-08 23:09:34,586 - INFO - Epoch 5/50 - Train Loss: 218.0690, Val Loss: 5328.8118, LR: 0.000500, Time: 323.12s
+2025-07-08 23:14:58,682 - INFO - Epoch 6/50 - Train Loss: 180.2317, Val Loss: 481.0160, LR: 0.000500, Time: 324.09s
+2025-07-08 23:20:20,677 - INFO - Epoch 7/50 - Train Loss: 195.9365, Val Loss: 126.1301, LR: 0.000500, Time: 321.99s
+2025-07-08 23:25:42,758 - INFO - Epoch 8/50 - Train Loss: 225.9809, Val Loss: 65.2636, LR: 0.000500, Time: 322.08s
+2025-07-08 23:31:02,031 - INFO - Epoch 9/50 - Train Loss: 168.9337, Val Loss: 19.1519, LR: 0.000500, Time: 319.27s
+2025-07-08 23:36:20,800 - INFO - Epoch 10/50 - Train Loss: 172.2275, Val Loss: 20.2572, LR: 0.000500, Time: 318.77s
+2025-07-08 23:41:40,773 - INFO - Epoch 11/50 - Train Loss: 155.0568, Val Loss: 88.7619, LR: 0.000500, Time: 319.97s
+2025-07-08 23:47:01,613 - INFO - Epoch 12/50 - Train Loss: 124.9862, Val Loss: 98.1998, LR: 0.000500, Time: 320.84s
+2025-07-09 00:12:08,701 - INFO - 훈련 시작 - Epochs: 50, Device: cpu
+2025-07-09 00:12:08,702 - INFO - 모델 파라미터 수: 121947969
+2025-07-09 00:13:18,663 - INFO - Epoch 1/50 - Train Loss: 540.2299, Val Loss: 2336728.2500, LR: 0.001000, Time: 69.96s
+2025-07-09 00:14:29,876 - INFO - Epoch 2/50 - Train Loss: 487.9741, Val Loss: 40476.5117, LR: 0.001000, Time: 69.72s
+2025-07-09 00:15:40,800 - INFO - Epoch 3/50 - Train Loss: 397.4654, Val Loss: 9838.8076, LR: 0.001000, Time: 69.58s
+2025-07-09 00:16:51,835 - INFO - Epoch 4/50 - Train Loss: 364.6555, Val Loss: 5423.7732, LR: 0.001000, Time: 69.72s
+2025-07-09 00:18:02,489 - INFO - Epoch 5/50 - Train Loss: 258.3068, Val Loss: 2379.6447, LR: 0.001000, Time: 69.26s
+2025-07-09 00:19:13,230 - INFO - Epoch 6/50 - Train Loss: 312.3147, Val Loss: 63.2560, LR: 0.001000, Time: 69.41s
+2025-07-09 00:20:26,312 - INFO - Epoch 7/50 - Train Loss: 260.8178, Val Loss: 989.3000, LR: 0.001000, Time: 71.73s
+2025-07-09 00:21:37,779 - INFO - Epoch 8/50 - Train Loss: 224.8152, Val Loss: 208.2094, LR: 0.001000, Time: 71.47s
+2025-07-09 00:22:47,331 - INFO - Epoch 9/50 - Train Loss: 209.1359, Val Loss: 42.0256, LR: 0.001000, Time: 69.55s
+2025-07-09 00:23:58,796 - INFO - Epoch 10/50 - Train Loss: 218.8022, Val Loss: 405.7182, LR: 0.001000, Time: 70.02s
+2025-07-09 00:25:20,838 - INFO - Epoch 11/50 - Train Loss: 201.4122, Val Loss: 23.9067, LR: 0.001000, Time: 82.04s
+2025-07-09 00:26:47,386 - INFO - Epoch 12/50 - Train Loss: 154.8812, Val Loss: 45.3539, LR: 0.001000, Time: 85.12s
+2025-07-09 00:28:01,964 - INFO - Epoch 13/50 - Train Loss: 161.9546, Val Loss: 87.0897, LR: 0.001000, Time: 74.58s
+2025-07-09 00:29:19,549 - INFO - Epoch 14/50 - Train Loss: 143.9039, Val Loss: 13.4338, LR: 0.001000, Time: 77.58s
+2025-07-09 00:30:41,957 - INFO - Epoch 15/50 - Train Loss: 148.8865, Val Loss: 13.0098, LR: 0.001000, Time: 81.11s
+2025-07-09 00:32:13,093 - INFO - Epoch 16/50 - Train Loss: 156.7903, Val Loss: 129.5796, LR: 0.001000, Time: 81.98s
+2025-07-09 00:34:01,618 - INFO - Epoch 17/50 - Train Loss: 168.0905, Val Loss: 46.1168, LR: 0.001000, Time: 108.52s
+2025-07-09 00:35:51,348 - INFO - Epoch 18/50 - Train Loss: 148.6438, Val Loss: 22.5530, LR: 0.001000, Time: 109.73s
+2025-07-09 00:37:03,594 - INFO - Epoch 19/50 - Train Loss: 129.2673, Val Loss: 29.5378, LR: 0.001000, Time: 72.24s
+2025-07-09 00:38:23,115 - INFO - Epoch 20/50 - Train Loss: 116.2373, Val Loss: 43.8228, LR: 0.001000, Time: 79.52s
+2025-07-09 00:39:38,950 - INFO - Epoch 21/50 - Train Loss: 129.1285, Val Loss: 28.4396, LR: 0.001000, Time: 75.83s
+2025-07-09 00:40:58,514 - INFO - Epoch 22/50 - Train Loss: 133.1206, Val Loss: 8.2798, LR: 0.001000, Time: 79.56s
+2025-07-09 00:42:06,938 - INFO - Epoch 23/50 - Train Loss: 113.5706, Val Loss: 8.8524, LR: 0.001000, Time: 66.91s
+2025-07-09 00:43:13,377 - INFO - Epoch 24/50 - Train Loss: 121.0604, Val Loss: 11.0418, LR: 0.001000, Time: 66.44s
+2025-07-09 00:44:19,996 - INFO - Epoch 25/50 - Train Loss: 110.6952, Val Loss: 18.1982, LR: 0.001000, Time: 66.62s
+2025-07-09 00:45:26,427 - INFO - Epoch 26/50 - Train Loss: 146.9692, Val Loss: 5.2574, LR: 0.001000, Time: 66.43s
+2025-07-09 00:46:35,014 - INFO - Epoch 27/50 - Train Loss: 131.0466, Val Loss: 10.1955, LR: 0.001000, Time: 67.31s
+2025-07-09 00:47:48,795 - INFO - Epoch 28/50 - Train Loss: 111.1054, Val Loss: 3.6298, LR: 0.001000, Time: 73.78s
+2025-07-09 00:49:02,153 - INFO - Epoch 29/50 - Train Loss: 115.6791, Val Loss: 11.2272, LR: 0.001000, Time: 71.77s
+2025-07-09 00:50:12,524 - INFO - Epoch 30/50 - Train Loss: 140.4410, Val Loss: 14.5687, LR: 0.001000, Time: 70.37s
+2025-07-09 00:51:22,624 - INFO - Epoch 31/50 - Train Loss: 125.5237, Val Loss: 1.9033, LR: 0.001000, Time: 70.10s
+2025-07-09 00:52:35,218 - INFO - Epoch 32/50 - Train Loss: 126.9920, Val Loss: 9.8847, LR: 0.001000, Time: 71.23s
+2025-07-09 00:53:45,994 - INFO - Epoch 33/50 - Train Loss: 112.8105, Val Loss: 28.8772, LR: 0.001000, Time: 70.78s
+2025-07-09 00:54:56,705 - INFO - Epoch 34/50 - Train Loss: 91.0232, Val Loss: 5.4216, LR: 0.001000, Time: 70.71s
+2025-07-09 00:56:07,223 - INFO - Epoch 35/50 - Train Loss: 98.2933, Val Loss: 2.2549, LR: 0.001000, Time: 70.52s
+2025-07-09 00:57:17,642 - INFO - Epoch 36/50 - Train Loss: 95.4563, Val Loss: 7.2255, LR: 0.001000, Time: 70.42s
+2025-07-09 00:58:28,663 - INFO - Epoch 37/50 - Train Loss: 88.9593, Val Loss: 4.1431, LR: 0.001000, Time: 71.02s
+2025-07-09 00:59:39,288 - INFO - Epoch 38/50 - Train Loss: 115.8690, Val Loss: 3.5546, LR: 0.001000, Time: 70.62s
+2025-07-09 01:00:50,371 - INFO - Epoch 39/50 - Train Loss: 88.1903, Val Loss: 2.5771, LR: 0.001000, Time: 71.08s
+2025-07-09 01:02:01,401 - INFO - Epoch 40/50 - Train Loss: 85.6812, Val Loss: 1.0401, LR: 0.001000, Time: 71.03s
+2025-07-09 01:03:14,145 - INFO - Epoch 41/50 - Train Loss: 90.1787, Val Loss: 0.7672, LR: 0.001000, Time: 71.18s
+2025-07-09 01:04:25,873 - INFO - Epoch 42/50 - Train Loss: 108.1872, Val Loss: 3.2837, LR: 0.001000, Time: 70.27s
+2025-07-09 01:05:36,566 - INFO - Epoch 43/50 - Train Loss: 104.7674, Val Loss: 6.9470, LR: 0.001000, Time: 70.69s
+2025-07-09 01:06:47,146 - INFO - Epoch 44/50 - Train Loss: 106.8198, Val Loss: 2.1478, LR: 0.001000, Time: 70.58s
+2025-07-09 01:07:57,489 - INFO - Epoch 45/50 - Train Loss: 96.1931, Val Loss: 2.7846, LR: 0.001000, Time: 70.34s
+2025-07-09 01:09:09,041 - INFO - Epoch 46/50 - Train Loss: 83.2038, Val Loss: 0.7124, LR: 0.001000, Time: 71.55s
+2025-07-09 01:10:21,752 - INFO - Epoch 47/50 - Train Loss: 116.7197, Val Loss: 2.1340, LR: 0.001000, Time: 71.23s
+2025-07-09 01:11:32,677 - INFO - Epoch 48/50 - Train Loss: 103.1655, Val Loss: 2.7677, LR: 0.001000, Time: 70.92s
+2025-07-09 01:12:43,023 - INFO - Epoch 49/50 - Train Loss: 96.3006, Val Loss: 3.3849, LR: 0.001000, Time: 70.34s
+2025-07-09 01:13:53,869 - INFO - Epoch 50/50 - Train Loss: 79.4313, Val Loss: 4.6750, LR: 0.001000, Time: 70.84s
+2025-07-09 01:13:53,870 - INFO - 훈련 완료 - 총 시간: 3705.17s
+2025-07-09 01:14:09,976 - INFO - 평가 결과 - RMSE: 4.3496, MAE: 4.0710, R²: -64.8646
+2025-07-09 01:14:10,405 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:14:10,406 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:14:10,408 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:14:10,408 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:14:10,410 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:14:10,410 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:14:10,412 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:14:10,412 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:14:10,413 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:14:10,413 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:14:10,415 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:14:10,415 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:14:10,470 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:14:10,470 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:14:10,471 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:14:10,471 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:14:10,473 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:14:10,473 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:14:10,474 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:14:10,474 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:14:10,475 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:14:10,475 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:14:10,476 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:14:10,476 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:14:10,558 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:14:10,558 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:14:10,559 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:14:10,559 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:14:10,561 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:14:10,561 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:14:10,562 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:14:10,562 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:14:10,563 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:14:10,563 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:14:10,564 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:14:10,564 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:14:11,193 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:14:11,193 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:14:11,194 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:14:11,194 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:14:11,196 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:14:11,196 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:14:11,197 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:14:11,197 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:14:11,198 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:14:11,198 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:14:11,199 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:14:11,199 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:17:44,110 - INFO - 모델 저장: results/training/vgg16_final_model.pth
+2025-07-09 01:17:44,143 - INFO - 훈련 시작 - Epochs: 50, Device: cpu
+2025-07-09 01:17:44,143 - INFO - 모델 파라미터 수: 1250337
+2025-07-09 01:18:23,605 - INFO - Epoch 1/50 - Train Loss: 46.3219, Val Loss: 17.4873, LR: 0.001000, Time: 39.46s
+2025-07-09 01:19:02,283 - INFO - Epoch 2/50 - Train Loss: 29.8733, Val Loss: 4.8833, LR: 0.001000, Time: 38.65s
+2025-07-09 01:19:40,975 - INFO - Epoch 3/50 - Train Loss: 25.6147, Val Loss: 9.2885, LR: 0.001000, Time: 38.67s
+2025-07-09 01:20:19,600 - INFO - Epoch 4/50 - Train Loss: 29.3300, Val Loss: 34.1272, LR: 0.001000, Time: 38.63s
+2025-07-09 01:20:58,292 - INFO - Epoch 5/50 - Train Loss: 18.9773, Val Loss: 10.1167, LR: 0.001000, Time: 38.69s
+2025-07-09 01:21:37,918 - INFO - Epoch 6/50 - Train Loss: 21.8013, Val Loss: 5.7665, LR: 0.001000, Time: 39.63s
+2025-07-09 01:22:16,728 - INFO - Epoch 7/50 - Train Loss: 17.5165, Val Loss: 2.4542, LR: 0.001000, Time: 38.81s
+2025-07-09 01:22:55,355 - INFO - Epoch 8/50 - Train Loss: 13.1049, Val Loss: 1.6291, LR: 0.001000, Time: 38.58s
+2025-07-09 01:23:33,954 - INFO - Epoch 9/50 - Train Loss: 21.0921, Val Loss: 3.4175, LR: 0.001000, Time: 38.57s
+2025-07-09 01:24:12,498 - INFO - Epoch 10/50 - Train Loss: 12.3146, Val Loss: 2.2522, LR: 0.001000, Time: 38.54s
+2025-07-09 01:24:51,070 - INFO - Epoch 11/50 - Train Loss: 17.0754, Val Loss: 4.7260, LR: 0.001000, Time: 38.57s
+2025-07-09 01:25:30,084 - INFO - Epoch 12/50 - Train Loss: 13.5177, Val Loss: 3.2940, LR: 0.001000, Time: 39.01s
+2025-07-09 01:26:08,690 - INFO - Epoch 13/50 - Train Loss: 12.5651, Val Loss: 3.3551, LR: 0.001000, Time: 38.60s
+2025-07-09 01:26:47,524 - INFO - Epoch 14/50 - Train Loss: 14.0633, Val Loss: 2.3774, LR: 0.001000, Time: 38.83s
+2025-07-09 01:27:26,167 - INFO - Epoch 15/50 - Train Loss: 15.6730, Val Loss: 4.4183, LR: 0.001000, Time: 38.64s
+2025-07-09 01:28:04,697 - INFO - Epoch 16/50 - Train Loss: 14.5390, Val Loss: 1.1494, LR: 0.001000, Time: 38.53s
+2025-07-09 01:28:43,245 - INFO - Epoch 17/50 - Train Loss: 17.3367, Val Loss: 3.6709, LR: 0.001000, Time: 38.52s
+2025-07-09 01:29:21,848 - INFO - Epoch 18/50 - Train Loss: 14.0902, Val Loss: 8.8175, LR: 0.001000, Time: 38.60s
+2025-07-09 01:30:00,378 - INFO - Epoch 19/50 - Train Loss: 7.1985, Val Loss: 8.9891, LR: 0.001000, Time: 38.53s
+2025-07-09 01:30:38,882 - INFO - Epoch 20/50 - Train Loss: 9.1778, Val Loss: 7.6264, LR: 0.001000, Time: 38.50s
+2025-07-09 01:31:17,549 - INFO - Epoch 21/50 - Train Loss: 11.6835, Val Loss: 3.0411, LR: 0.001000, Time: 38.67s
+2025-07-09 01:31:56,189 - INFO - Epoch 22/50 - Train Loss: 12.1533, Val Loss: 0.5004, LR: 0.001000, Time: 38.64s
+2025-07-09 01:32:34,781 - INFO - Epoch 23/50 - Train Loss: 9.4989, Val Loss: 0.5314, LR: 0.001000, Time: 38.56s
+2025-07-09 01:33:13,429 - INFO - Epoch 24/50 - Train Loss: 11.5397, Val Loss: 2.5888, LR: 0.001000, Time: 38.65s
+2025-07-09 01:33:52,009 - INFO - Epoch 25/50 - Train Loss: 6.6961, Val Loss: 7.0428, LR: 0.001000, Time: 38.58s
+2025-07-09 01:34:30,555 - INFO - Epoch 26/50 - Train Loss: 6.7306, Val Loss: 3.8556, LR: 0.001000, Time: 38.54s
+2025-07-09 01:35:09,120 - INFO - Epoch 27/50 - Train Loss: 7.8326, Val Loss: 5.1243, LR: 0.001000, Time: 38.56s
+2025-07-09 01:35:47,745 - INFO - Epoch 28/50 - Train Loss: 10.3234, Val Loss: 2.7858, LR: 0.001000, Time: 38.62s
+2025-07-09 01:36:26,336 - INFO - Epoch 29/50 - Train Loss: 7.8782, Val Loss: 1.4432, LR: 0.001000, Time: 38.59s
+2025-07-09 01:37:05,065 - INFO - Epoch 30/50 - Train Loss: 6.0812, Val Loss: 1.8799, LR: 0.001000, Time: 38.73s
+2025-07-09 01:37:43,940 - INFO - Epoch 31/50 - Train Loss: 8.1150, Val Loss: 1.7778, LR: 0.001000, Time: 38.87s
+2025-07-09 01:38:22,831 - INFO - Epoch 32/50 - Train Loss: 6.1022, Val Loss: 1.5659, LR: 0.001000, Time: 38.89s
+2025-07-09 01:39:01,694 - INFO - Epoch 33/50 - Train Loss: 6.5018, Val Loss: 0.8730, LR: 0.000100, Time: 38.86s
+2025-07-09 01:39:40,305 - INFO - Epoch 34/50 - Train Loss: 9.5840, Val Loss: 0.5983, LR: 0.000100, Time: 38.61s
+2025-07-09 01:40:18,935 - INFO - Epoch 35/50 - Train Loss: 6.4096, Val Loss: 0.9024, LR: 0.000100, Time: 38.63s
+2025-07-09 01:40:57,556 - INFO - Epoch 36/50 - Train Loss: 8.7033, Val Loss: 1.2204, LR: 0.000100, Time: 38.62s
+2025-07-09 01:41:36,248 - INFO - Epoch 37/50 - Train Loss: 7.2977, Val Loss: 1.0202, LR: 0.000100, Time: 38.69s
+2025-07-09 01:41:36,249 - INFO - 얼리 스토핑 - Epoch 37
+2025-07-09 01:41:36,249 - INFO - 훈련 완료 - 총 시간: 1432.11s
+2025-07-09 01:41:49,539 - INFO - 평가 결과 - RMSE: 0.7503, MAE: 0.5835, R²: -0.9596
+2025-07-09 01:41:49,623 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:41:49,623 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:41:49,625 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:41:49,626 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:41:49,627 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:41:49,627 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:41:49,628 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:41:49,628 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:41:49,683 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:41:49,683 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:41:49,684 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:41:49,684 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:41:49,686 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:41:49,686 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:41:49,687 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:41:49,687 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:41:49,766 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:41:49,766 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:41:49,767 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:41:49,767 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:41:49,768 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:41:49,768 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:41:49,770 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:41:49,770 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:41:50,183 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:41:50,184 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:41:50,185 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:41:50,185 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:41:50,185 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:41:50,186 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 01:41:50,188 - WARNING - Font 'default' does not have a glyph for '\u2212' [U+2212], substituting with a dummy symbol.
+2025-07-09 01:41:50,188 - INFO - Substituting symbol − from STIXGeneral
+2025-07-09 08:06:17,053 - INFO - 모델 저장: results/training/custom_cnn_final_model.pth
+2025-07-09 08:07:37,086 - INFO - 훈련 시작 - Epochs: 80, Device: cpu
+2025-07-09 08:07:37,087 - INFO - 모델 파라미터 수: 121947969
+2025-07-09 08:09:14,989 - INFO - 훈련 시작 - Epochs: 80, Device: cpu
+2025-07-09 08:09:14,990 - INFO - 모델 파라미터 수: 121947969
+2025-07-09 08:10:54,077 - INFO - 훈련 시작 - Epochs: 80, Device: cpu
+2025-07-09 08:10:54,078 - INFO - 모델 파라미터 수: 121947969
+2025-07-09 08:13:15,934 - INFO - Epoch 1/80 - Train Loss: 265.5876, Val Loss: 21.5839, LR: 0.000100, Time: 141.86s
+2025-07-09 08:15:35,879 - INFO - Epoch 2/80 - Train Loss: 171.8250, Val Loss: 7.5574, LR: 0.000100, Time: 139.94s
+2025-07-09 08:17:55,533 - INFO - Epoch 3/80 - Train Loss: 166.5735, Val Loss: 4.7294, LR: 0.000100, Time: 139.65s
+2025-07-09 08:20:16,052 - INFO - Epoch 4/80 - Train Loss: 115.8677, Val Loss: 48.1332, LR: 0.000100, Time: 140.52s
+2025-07-09 08:22:36,192 - INFO - Epoch 5/80 - Train Loss: 123.5655, Val Loss: 104.3282, LR: 0.000100, Time: 140.14s
+2025-07-09 08:24:55,726 - INFO - Epoch 6/80 - Train Loss: 127.0851, Val Loss: 40894.0042, LR: 0.000100, Time: 139.53s
+2025-07-09 08:27:15,403 - INFO - Epoch 7/80 - Train Loss: 129.0194, Val Loss: 3705.1505, LR: 0.000100, Time: 139.67s
+2025-07-09 08:29:34,940 - INFO - Epoch 8/80 - Train Loss: 88.3852, Val Loss: 148.7798, LR: 0.000100, Time: 139.53s
+2025-07-09 08:31:55,112 - INFO - Epoch 9/80 - Train Loss: 95.8435, Val Loss: 35.8085, LR: 0.000010, Time: 140.17s
+2025-07-09 08:34:19,497 - INFO - Epoch 10/80 - Train Loss: 104.9235, Val Loss: 19.3251, LR: 0.000010, Time: 144.38s
+2025-07-09 08:36:47,445 - INFO - Epoch 11/80 - Train Loss: 106.9072, Val Loss: 11.0650, LR: 0.000010, Time: 147.95s
+2025-07-09 08:39:12,213 - INFO - Epoch 12/80 - Train Loss: 77.6729, Val Loss: 25.6138, LR: 0.000010, Time: 144.77s
+2025-07-09 08:41:33,648 - INFO - Epoch 13/80 - Train Loss: 100.5183, Val Loss: 18.8027, LR: 0.000010, Time: 141.43s
+2025-07-09 08:44:02,276 - INFO - Epoch 14/80 - Train Loss: 82.5376, Val Loss: 16.1716, LR: 0.000010, Time: 148.63s
